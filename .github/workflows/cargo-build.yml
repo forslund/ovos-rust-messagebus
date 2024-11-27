@@ -2,7 +2,7 @@ name: main
 
 on:
   push:
-    branches: [ main, dev ]
+    branches: [ main, dev, single-thread ]
   pull_request:
 
 env:
