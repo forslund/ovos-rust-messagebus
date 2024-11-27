@@ -23,7 +23,7 @@ jobs:
           rust-version: stable
 
       - name: cargo test
-        run: cargo test --all-features
+        run: cargo test --all-features -- --test-threads=1
 
       - name: rustfmt
         run: cargo fmt --all -- --check
